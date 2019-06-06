@@ -1,0 +1,40 @@
+.progress-nav {
+    display: inline-block;
+    width: 30%
+}
+.progress-nav span {
+    display:flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #999;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    vertical-align: middle
+}
+
+.progress-nav strong {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px
+}
+
+.progress-nav.done span{
+    background: limegreen;
+    color: aliceblue;
+}
+
+.progress-nav.active span{
+    background: #3838a8;
+    color: antiquewhite
+}
+
+.progress-nav.done strong{
+    color: limegreen;
+}
+
+.progress-nav.active strong{
+    color: #3838a8;
+}
